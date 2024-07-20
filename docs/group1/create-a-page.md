@@ -2,42 +2,42 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# Agricultural cabinet system
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+## Introduction
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+In recent years, the integration of **Iot** technology into agriculture has seen significant advancements, offering substantial benefits in remote device management and control via mobile applications. This modern IoT system enables optimal adjustments of parameters such as water and light based on gathered data, thereby enhancing agricultural productivity.
 
-## Create your first React Page
+![](http://localhost:3001/assets/images/tudienlanh-3c6a15597675afb19e9f826bd781c5e1.svg)
 
-Create a file at `src/pages/my-react-page.js`:
+### Key Features of the System
+---
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+- *Remote Control*: Users can remotely monitor and control devices through a mobile application.
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+- *Scheduling and Automation*: The system supports scheduling functionalities to automate device operations, facilitating easy maintenance and management.
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+- *Lightning and Weather Protection*: Electrical circuits are designed with special protection mechanisms to withstand lightning and adverse weather conditions.
 
-## Create your first Markdown Page
+- *Ease of Replacement and Upgrades*: The system is designed for flexibility, making it easy to replace and upgrade devices to meet evolving agricultural needs.
 
-Create a file at `src/pages/my-markdown-page.md`:
+- *Safety and Reliability*: With multiple 3-pin connection ports, the system ensures safe connectivity and operation of electrical devices in agricultural environments.
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+### Benefits of Agricultural Electrical Cabinets
+---
+- [x] Automation
+- [x] Efficiency
+- [x] Safety
+- [x] Reliability
+- [x] Energy Savings
 
-This is a Markdown page
-```
+### Questions 
+---
+- How will the devices be connected to the electrical cabinet?  
+- What are the devices in the electrical cabinet?
+- How are the devices in the agricultural electrical cabinet connected?
+- How to check the condition of the electrical cabinet?
+- How to control electrical cabinets? 
+- Instructions for using the mobile app to control the device
 
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+---

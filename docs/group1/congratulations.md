@@ -4,10 +4,9 @@ sidebar_position: 6
 
 # Congratulations!
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+You have completed reading the introduction and user guide for the agricultural cabinet. In the future, we will continue to improve and upgrade the equipment to provide you with the best value.
 
-Docusaurus has **much more to offer**!
-
+If you have any questions, "PLEASE KEEP THEM TO YOURSELF AND DO NOT SPEAK OUT" (please contact us at xxxxxxxxxx for advice and support).
 
 
 Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
