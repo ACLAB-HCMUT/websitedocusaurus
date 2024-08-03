@@ -1,55 +1,30 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
-# Installation and Operation
-## Step-by-Step Installation:
----
-### Preparation:
+# Technical Safety Requirements
 
-- Select an appropriately sized electrical cabinet.
-- Ensure adequate length and gauge of electrical cables.
-- Gather necessary installation tools such as screwdrivers, pliers, electrical tape, screws, and connectors.
-  
-### Install Modbus RTU Relay 32CH:
+`Technical safety` is the foremost priority in all activities related to work and technology.
 
-- Secure the relay module in the cabinet using screws or a DIN rail.
-- Connect the 24V DC power source to the relay module’s power terminals.
-- Connect the devices to be controlled to the relay channels according to the wiring diagram.
-- Connect the RS485 port of the relay module to the Yolo Uno.
-### Install Timer:
+##   <span style={{ color: 'purple' }}>1. Safety Warnings When Using the Equipment</span>
 
-- Mount the Timer in the cabinet.
-- Connect the 220V AC power source to the Timer’s power terminals.
-- Connect the device to be controlled to the Timer’s output terminals.
-- Set the on/off schedule as required.
-### Install Circuit Breaker (Aptomat):
+- <span style={{ color: 'orange' }}>**High Voltage:**</span> The devices in the electrical cabinet operate at high voltage, which can be life-threatening. Always ensure the power is disconnected before performing any maintenance or installation work.
+- <span style={{ color: 'orange' }}>**Electric Leakage Protection:**</span> Use the Hyundai 30A ELCB circuit breaker to protect the electrical system from overloads, short circuits, and electric leakage. Ensure all electrical connections are secure and show no signs of damage.
+- <span style={{ color: 'orange' }}>**Electric Shock Hazard:**</span> Always wear insulated gloves and use insulated tools when working with the electrical cabinet.
+- <span style={{ color: 'orange' }}>**Ventilation:**</span> Ensure the area around the electrical cabinet has adequate ventilation to prevent overheating.
 
-- Mount the circuit breaker, typically at the input of the system to protect the entire cabinet.
-- Connect the 220V AC power source to the circuit breaker’s input terminals.
-- Connect the circuit breaker’s output terminals to other devices or systems within the cabinet.
-### Install Contactor:
 
-- Secure the contactor in the cabinet.
-- Connect the control power supply to the contactor’s coil terminals.
-- Connect the load power supply to the contactor’s input terminals.
-- Connect the device to be controlled to the contactor’s output terminals.
-### Connect RS485:
+##  <span style={{ color: 'purple' }}>2. Safety Instructions for Users</span>
+- <span style={{ color: 'orange' }}>**Regular Inspections:**</span> Conduct regular inspections of the devices in the electrical cabinet to ensure stable and safe operation. Pay special attention to the condition of the wiring and protective devices like circuit breakers and relays.
+- <span style={{ color: 'orange' }}>**Proper Equipment Usage:**</span> Only use the devices when fully instructed on how to operate them. Avoid using the equipment beyond its design specifications or in unsuitable environmental conditions.
+- <span style={{ color: 'orange' }}>**Safety Training:**</span> Users should be trained in electrical safety and basic first aid measures in case of an emergency.
 
-- Connect the A and B lines of the RS485 from the Yolo Uno to the Modbus RTU Relay 32CH.
-- Verify all connections are secure and free from faults.
-### Program Yolo Uno:
 
-- Install the appropriate development software, such as Arduino IDE.
-- Write control programs using C++ to manage relay states via Modbus RTU.
-- Upload the program to the Yolo Uno through the USB port.
-- Test and fine-tune the program to ensure proper operation.
-  
-## Operation:
----
-### Final Check:
+## <span style={{ color: 'purple' }}>3. Environmental Operating Requirements</span>
+- <span style={{ color: 'orange' }}>**Temperature:**</span> The devices in the electrical cabinet are designed to operate well within a temperature range of -20°C to 85°C, depending on the specific device. Avoid installing the equipment in environments that exceed these temperature limits.
+- <span style={{ color: 'orange' }}>**Humidity:**</span> Ensure that the humidity in the installation area does not exceed 85% RH to prevent condensation and potential damage to the equipment.
+- <span style={{ color: 'orange' }}>**Ventilation:**</span> The installation area must have a good ventilation system to minimize the risk of overheating.
 
-- Ensure all connections are secure and correct.
-- Power up the electrical cabinet and verify the functionality of each component.
-### Monitoring and Maintenance:
 
-- Regularly inspect and maintain the system to ensure stable and safe operation.
+## <span style={{ color: 'purple' }}>4. Power Supply Requirements</span>
+- <span style={{ color: 'orange' }}>**Supply Voltage:**</span> Devices such as the Timer THC30A and Hyundai ELCB use a 220V AC power supply, while the Modbus RTU Relay 32CH and Yolo Uno require 7~36V and 3.3V ~ 5V, respectively.
+- <span style={{ color: 'orange' }}>**Voltage Stability:**</span> Ensure the power supply to the devices is stable, with no sudden voltage drops or surges to avoid damage.

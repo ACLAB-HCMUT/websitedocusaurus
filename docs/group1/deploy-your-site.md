@@ -1,40 +1,95 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
-# Controlling Devices with a Mobile App
-## App Interface
-- User-Friendly Design: Ensure the interface is intuitive and easy to navigate.
-- Dashboard: Display all connected devices with their current status (on/off).
-- Navigation Menu: Include options for device control, adding/removing devices, and setting timers.
+#  Mobile App Control
+
+:question: How to control agricultural cabinet equipment :question:
+
+---
+## <p style={{ color: 'purple' }}>1. App mobile Android</p>
+
+
+We have created an `android mobile app` that controls agricultural cabinets called `CaCo IOT`
+(Cabinet control internet of thing).
+
+
+<p align="center">
+  <img src={require('@site/static/img/imgG1/appMB/iconapp.jpg').default} alt="Alt text" width="290" height="230" />
+</p>
+
+---
+## <p style={{ color: 'purple' }}>2. CaCo IoT Application User Guide</p>
+
+### <p style={{ color: 'orange' }}>2.1 Login and Account Creation Guide:</p>
+
+:arrow_right:  <span style={{ color: 'green' }}>**Step 1:**</span> Tap on the CaCo IoT icon. The login screen will appear as shown. Here,
+you can `log in` or `create an account`  if you don’t have one.
+
+
+<p align="center">
+  <img src={require('@site/static/img/imgG1/appMB/login.JPG').default} alt="Alt text" width="300" height="400" />
+</p>
+
+:arrow_right:  <span style={{ color: 'green' }}>**Step 2:**</span> Log in to the application. After entering your account or creating a new one, tap `Login` to access the app. The Home screen will appear as shown. It displays temperature, humidity, wind speed, control history, and weather forecast.
+
+<p align="center">
+  <img src={require('@site/static/img/imgG1/appMB/home.JPG').default} alt="Alt text" width="300" height="600" />
+</p>
+
+:arrow_right:  <span style={{ color: 'green' }}>**Step 3:**</span> Open the menu. On the Home screen, tap `the three-line icon` at the top
+left corner. The menu will open.
+
   
-## Guide to Creating a Mobile App Account
+<p align="center">
+  <img src={require('@site/static/img/imgG1/appMB/menu.JPG').default} alt="Alt text" width="300" height="450" />
+</p>
 
-## Turning Devices On/Off, Adding, and Removing Devices
+>    - When you tap the `Profile` icon, the screen will appear as shown. Here, you can view account information, change username, email, password, and log out.
 
-### Device Control:
+>    - Returning to the menu, when you tap `Setting`, you can see app settings such as language settings, theme settings, and some information about the app.
 
-- On/Off Buttons: Each device should have dedicated buttons to turn them on or off.
-- Status Indicator: Display the current status of each device (e.g., a green light for on, red light for off).
+### <p style={{ color: 'orange' }}>2.2 Relay Control Guide:</p>
 
-### Adding Devices:
+- **<span style={{ color: 'darkgreen' }}> Relay On/Off Control:</span>**
 
-- Add Device Button: Provide a button to add new devices.
-- Discovery and Pairing: Implement a feature to automatically discover new devices or allow manual entry of device details.
-- Confirmation: Ensure the new device is properly added and confirm with the user.
+  
+  :arrow_right:  <span style={{ color: 'green' }}>**Step 1:**</span>  In the menu
 
-### Removing Devices:
+  :arrow_right:  <span style={{ color: 'green' }}>**Step 2:**</span>  Tap the `Accessories` icon The screen will appear as shown. It
+displays the relay control cards.
 
-- Remove Device Option: Allow users to select and remove devices from the app.
-- Confirmation Prompt: Confirm the removal to prevent accidental deletions.
-## Setting Timers
-### Timer Setup:
+  <p align="center">
+    <img src={require('@site/static/img/imgG1/appMB/accessories.JPG').default} alt="Alt text" width="300" height="600" />
+  </p>
 
-- Select Device: Choose the device for which the timer is to be set.
-- Set Time: Input fields or a time picker to set the desired on and off times.
-- Repeat Schedule: Options for daily, weekly, or custom repeat schedules.
-- Save Timer: Save the timer settings to activate the schedule.
-### Managing Timers:
+    :arrow_right:  <span style={{ color: 'green' }}>**Step 3:**</span> To create a control card, tap `the plus icon` in the bottom left corner. A window will appear. Enter the card name and the relay to control, then select `OK` to confirm. The new card will appear on the screen as shown.
 
-- Timer List: Display a list of all active timers with details.
-- Edit/Delete: Options to edit or delete existing timers.
+  <p align="center">
+    <img src={require('@site/static/img/imgG1/appMB/addcardcontroll.JPG').default} alt="Alt text" width="300" height="300" />
+  </p>
+
+    :arrow_right:  <span style={{ color: 'green' }}>**Step 4:**</span> Tap  `ON/OFF` to turn the relay on or off on
+the corresponding card. To delete a card, tap the trash icon on the corresponding card, and it will be deleted.
+
+- **<span style={{ color: 'darkgreen' }}> Relay Timer:</span>**
+ 
+  :arrow_right:  <span style={{ color: 'green' }}>**Step 1:**</span> In the menu Tap the `Automation icon`. The screen will appear as
+shown. Similar to `Accessories`, the screen also has relay control cards and an icon to create new cards.
+  
+  <p align="center">
+    <img src={require('@site/static/img/imgG1/appMB/automation.JPG').default} alt="Alt text" width="300" height="600" />
+  </p>
+
+  :arrow_right:  <span style={{ color: 'green' }}>**Step 2:**</span> Create a new card When you tap to create a new card, a window will
+appear as shown. Here, you can name the card, select one or multiple relays to control, choose `ON` or `OFF` mode, and set the operating time. After creating a card, the screen will display the newly created card. When the set time is reached, the card’s mode will activate.
+  
+  <p align="center">
+    <img src={require('@site/static/img/imgG1/appMB/addcardcontrol-timer.JPG').default} alt="Alt text" width="300" height="450" />
+  </p>
+
+
+<div style={{  borderLeft: '4px solid green',  backgroundColor: '#f0fff4',  padding: '10px',  borderRadius: '5px'}}>
+  <strong style={{ color: 'green' }}>🎬 VIDEO DEMO</strong>
+  <p style={{ color: 'black' }}>Detailed instructions in the video below [here](https://drive.google.com/file/d/1BX4mWm8RTZImEHI7xDiIAb3OLGKM8Noq/view?usp=drive_link)</p>
+</div>
